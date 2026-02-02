@@ -1,0 +1,30 @@
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:colorForeground">@color/textPrimary</item>
+        <item name="android:buttonStyle">@style/BBButton</item>
+        <item name="android:editTextStyle">@style/BBEditText</item>
+        <item name="android:listViewStyle">@style/BBListView</item>
+    </style>
+
+    <style name="BBButton" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BBEditText" parent="android:Widget.Holo.EditText">
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/textSecondary</item>
+    </style>
+
+    <style name="BBListView" parent="android:Widget.Holo.ListView">
+        <item name="android:divider">@color/border</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+</resources>

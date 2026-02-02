@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "com.bbclaude.chat"
+        minSdkVersion 18
+        targetSdkVersion 18
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    // No external dependencies for API 18 compatibility
+}
